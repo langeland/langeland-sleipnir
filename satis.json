@@ -1,0 +1,67 @@
+{
+    "name" :"DR PHP Repository",
+    "homepage": "https://www.dr.dk/tjenester/packages/drpackagist/",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:drdk/mimer-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:drdk/vinr-mimers-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:drdk/melius.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:drdk/php-dev-tools.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:drdk/drmailservice-swiftmailer.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:drdk/varnish-symfony-bundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:drdk/dr-login-silex.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:drdk/dr-mailservice-php-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:drdk/mad-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:drdk/tag-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:drdk/weblog-client.git"
+        },
+                {
+            "type": "vcs",
+            "url": "git@github.com:drdk/yarn-client.git"
+        }
+
+    ],
+    "archive": {
+        "directory": "dist",
+        "format": "tar",
+        "skip-dev": false
+    },
+    "config": {
+        "preferred-install": "dist",
+        "github-protocols": ["https","http"],
+        "github-oauth": {
+            "github.com": "-------------------------"
+        }
+    }
+}
